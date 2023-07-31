@@ -1,5 +1,3 @@
-
-
 function transformFromJsonToCsv(data, divider){
 
     const dataArray = JSON.parse(data);
@@ -29,6 +27,5 @@ function transformFromJsonToCsv(data, divider){
 return csv
 
 }
-
 
 module.exports = transformFromJsonToCsv;
